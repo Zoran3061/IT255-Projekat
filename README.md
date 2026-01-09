@@ -1,27 +1,50 @@
-# IT255-ZoranVisic3061
+# Wine Store Web Application (IT255 Project)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This project is a web application developed as part of a university course.
+The application represents a simple wine store that allows users to browse wines, view details and add products to a shopping cart, while administrators can manage wine data.
 
-## Development server
+## Features
+- Display list of wines
+- View wine details
+- Add wines to shopping cart
+- Create, update and edit wine products (admin functionality)
+- Firebase database integration for data storage
+- Responsive navigation and layout
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tech Stack
+- Frontend: Angular, TypeScript, HTML, CSS
+- Database: Firebase
+- Tools: Node.js, npm, Angular CLI
 
-## Code scaffolding
+## Application Architecture
+The application is structured into multiple Angular modules and components, including:
+- Navbar
+- Wine list, wine item and wine details
+- Wine edit component
+- Shopping cart
+- Services for data handling and Firebase communication
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
+### Prerequisites
+- Node.js and npm
+- Angular CLI
 
-## Build
+### Run locally
+```bash
+npm install
+ng serve
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Running application (screenshots)
 
-## Running unit tests
+**Wine details and update**
+<img width="849" height="607" alt="image" src="https://github.com/user-attachments/assets/b3dd6d4d-621f-4ffe-b50e-346aa7d2ef02" />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Add new wine**
+<img width="842" height="541" alt="image" src="https://github.com/user-attachments/assets/5876f983-a773-42ec-91fe-ef8a3787c38f" />
 
-## Running end-to-end tests
+**Shopping cart**
+<img width="975" height="485" alt="image" src="https://github.com/user-attachments/assets/04ac635e-ecd4-4f79-bb9c-45163778ed43" />
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+**Checkout**
+<img width="936" height="153" alt="image" src="https://github.com/user-attachments/assets/3951a718-baf9-4e50-8a57-cb9a252aad00" />
